@@ -1,0 +1,380 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+
+
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Quicksand:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200&display=swap" rel="stylesheet">
+
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                height: 100vh;
+
+
+            }
+
+            section{
+                background-color: #116dff;
+            }
+
+            header, footer{
+                height: 10vh;
+                background-color:#0a4a6e ;
+                
+            }
+            footer {
+                height: 180px;
+            }
+
+            .linkMenu{
+                display: inline;
+                font-size: 24px;
+                text-decoration: none;
+                padding: 20px;
+                
+            }   
+
+            .barraMenu{
+                display: flex;
+                justify-content: center;
+                height: 100vh;
+                position: relative;
+                top: 30px;
+                font-family: 'Farro', sans-serif;
+                color: #eff1f2;
+            }
+
+            .linkA {
+                color: #eff1f2;
+                text-decoration: none;
+            }
+
+            .linkA:hover {
+                color: rgb(255, 82, 146);
+                background-color: rgb(32, 52, 139);
+                border-radius: 10px;
+            }
+
+            .linhaHorizontal {
+                width: 40%;
+                
+                position: absolute;
+                left: 400px;
+                color: rgb(255, 82, 146);
+                background-color: rgb(255, 82, 146);
+                border-radius: 20%;
+                border-color: rgb(255, 82, 146);
+            }
+
+            .textoRodaPe {
+                font-family: 'Quicksand', sans-serif;
+                color: #eff1f2;;
+                position: relative;
+                left: 540px;
+                top: 25px;
+                  
+            }
+
+            .imagemPrincipal {
+                width: 1000px;
+                height: 400px;
+                position: relative;
+                left: 180px;
+                border-radius: 20px;
+                border-style: hidden;
+                box-shadow: 10px 10px 10px rgb(200, 70, 140);
+            }
+
+            .tituloArtigo {
+                color: rgb(255, 82, 146);
+                font-size: 26px;
+                text-align: center;
+                font-family: 'Open Sans Condensed', sans-serif;
+                line-height: 33.4px;
+                position: relative;  
+                top: 30px;
+                padding: 6px;
+            }
+
+            .imagemSecundaria {
+                width: 700px;
+                height: 400px;
+                position: relative;
+                left: 310px;
+                top: 55px;
+                border-radius: 20px;
+                border-style: hidden;
+                box-shadow: 10px 10px 10px rgb(32, 57, 136);
+            }
+
+            .subTexto {
+                color: #eff1f2;
+                font-size: 20px;
+                text-align: center;
+                font-family: 'Open Sans Condensed', sans-serif;
+                line-height: 33.4px;
+                position: relative;  
+                top: 30px;
+                padding: 6px; 
+            }
+
+            .minutoLeitura {
+                color: rgb(255, 82, 146);
+                position: absolute;
+                left: 933px;    
+                font-family: 'Montserrat', sans-serif;
+            }   
+
+            .resumo {
+                position: relative;
+                text-align: center;
+                padding: 22px;
+                color: rgb(255, 82, 146);
+                font-size: 35px;
+                font-family: 'Montserrat', sans-serif;
+                top: 42px;
+            }
+
+            .divArtigo {
+                background-color: rgb(26, 48, 92);
+                width: 800px;
+                position: relative;
+                left: 280px;
+                border-radius: 20px;
+                box-shadow: 10px 10px 10px rgb(32, 57, 136);
+            }
+
+            .subTituloArtigo {
+                position: relative;
+                left: 269px;
+                padding: 22px;
+                color: #eff1f2;
+                font-size: 15px;
+                font-family: 'Montserrat', sans-serif;
+                
+            }
+
+            .textoArtigo {
+                font-family: 'Montserrat', sans-serif;
+                color: #eff1f2;
+                font-size: 14px;
+                padding: 100px;
+            }
+
+            #github {
+                position: relative;
+                top: 50px;
+            }
+
+            .corLink {
+                color: rgb(255, 82, 146);
+            }
+     
+
+        </style>
+
+        <title>CIENCIA NEURODIVERGENTE</title>
+
+    </head>
+    <body>
+
+        <header>
+            <div class="barraMenu">
+                <nav>
+                    <ul class="menuUl">
+                        <li id="" class="linkMenu"><a href="index.html" class="linkA">Início</a></li>
+                        <li id="" class="linkMenu"><a href="blog.html" class="linkA">Blog</a></li>
+                        <li id="" class="linkMenu"><a href="sobre.html" class="linkA">Sobre</a></li>
+                        <li id="" class="linkMenu"><a href="contato.html" class="linkA">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section>
+            <main>
+                <div id="#textoPrincipal" style="color: eff1f2; font-size: 55px; text-align: center; font-family: 'Monda', sans-serif;
+                font-family: 'Poppins', sans-serif;">
+                    <h1>CONHEÇA O BLOG CIÊNCIA NEURODIVERGENTE</h1>
+                </div> 
+
+                <hr class="linhaHorizontal">
+
+                <h2 class="subTexto">Um blog destinado a pessoas que buscam conhecer mais sobre ciência, transtornos mentais e autoconhecimento.</h2>
+
+                <br>
+                <br>
+
+                <div class="imagem1">
+                    <img src="imagemÇÇ.png" alt="CIÊNCIA NEURODIVERGENTE" class="imagemPrincipal">
+                </div>
+
+                <br>
+                <br>
+                <br>
+
+                <h1 class="tituloArtigo">CONTRIBUIÇÕES DA ENGENHARIA ELÉTRICA-BIOMÉDICA NA ENGENHARIA DE TECIDOS E BIOIMPRESSÃO DE NEURÔNIOS</h1>
+
+                <br>
+
+                <div>
+                    <img src="imagemLL.png" alt="CIENCIA NEURODIVERGENTE" class="imagemSecundaria">
+                </div>
+
+                <br>
+                <br>
+                <br>
+
+                <div>
+                    <h2 class="subTexto">1FLORENTINO, Isabella Teixeira.</h2>
+                    <h2 class="subTexto">Aviso: Trabalho já publicado. Diga não ao plágio!</h2>
+                    
+                </div>
+
+                <span class="minutoLeitura">8 min de leitura</span>
+
+                <br>
+
+
+                    <div>
+                        <h2 class="resumo">RESUMO</h2>
+                    </div>
+
+                    <br>
+                    <br>
+
+                <div class="divArtigo">
+                    <div class="subTituloArtigo">
+                        <h2>Fundamentos</h2>
+                    </div>
+
+                    <h3 class="textoArtigo">A engenharia elétrica-biomédica pode ser uma ferramenta bastante promissora e útil na engenharia de tecidos e bioimpressão 3D de órgãos. Transportado consigo, todas as inovações da “nanoelétrica-eletrônica” (termo usado para pequenos dispositivos elétrico-eletrônicos) e as suas aplicações biomédicas na bioeletrônica dentro da saúde contemporânea. Alguns exemplos icônicos são os aparelhos de ressonância nuclear e plasmônica na extinção de células cancerígenas e a nanotecnologia regenerativa com nanocápsulas conjugadas. Consequentemente, a ideia de aliar a engenharia elétrica às tradicionais profissões do setor biológico, torna-se cada vez mais cotidiano e aplicável na medicina hodierna. A bioimpressão e a fabricação de estruturas artificiais é uma especialidade extremamente promissora e visionária. Por permitir, a construção em tempo real de estruturas clinicamente necessárias para os pacientes com ausência de algum órgão ou tecido na sua composição física. À vista disso, esse resumo privilegiará em especial as redes de neurônios fabricados artificialmente, em sistemas de logaritmos computacionais adaptativos semelhantes as caracteristícas primárias e secundárias no processamento de informações encontradas nos neurônios completamente orgânicos. E também, na impressão de neurônios artificiais/semi-orgânicos,  por pequenas bioplacas em escala nanomêtrica, envoltos de substancias interligativas como hidrogel, enzimas e aminoácidos assimiláveis para o organismo, cuja estratégia primordial visa a síntese de aspectos biológicos de conexões sinápticas que possibilitam a inteligência e cognição humana. Visando fundamentalmente, a expressão mais próxima do natural das células cerebrais, em estruturas de armazenamento e de processamento de dados computacionais e artificiais, realizados pelo sistema nervoso fabricado, tais como: audição, visão, tato, olfato e paladar.</h3>
+                
+                    <div class="subTituloArtigo">
+                        <h2>Objetivo</h2>
+                    </div>
+
+                    <h3 class="textoArtigo">Os conjuntos artificiais de neurônios, produzidos por meio da “nanobioelétrica-eletrônica” (partículas biosensíveis com propriedades eletrônicas) e da bioimpressão automatizada, almejam aumentar e possibilitar a viabilização da qualidade de vida de indivíduos, que perderam parte da massa encefálica em acidentes e cirurgias, com doenças degenerativas como a Esclerose Múltipla Lateral Amiotrófica (ELA) e com más formações cerebrais, de origem congênita ou hereditária. De modo geral, sua aplicação pode se estender para outros tecidos, como o conjuntivo e epitelial. Dessa forma, os especialistas buscam sua ampla aplicabilidade, desde um transplante de pele, coração, rins e tratamentos de doenças complexas, substituindo os métodos tidos como tradicionais. Ademais, os sistemas de biocomputação-adaptativa são totalmente inspirados no processamento de informacional dos neurônios biológicos e em suas interconexões. Tais revoluções científicas, estão sendo introduzidas nas ciências biológicas contemporânea. Com o intuito, por exemplo, de estender a expectativa média de sobrevida humana, possibilitar na área ambiental, a reconstrução e retorno de espécimes animais e vegetais antes extintas, por intermédio da engenharia de tecidos e “tesouras” gênicas. Outrossim, é a praticabilidade futura das redes neurais simuladas e implatadas, que apresentam uma unidade de processamento análogo ao do organismo voluntário, ou seja, ao ser vivo receber essas redes por incisão endoscópica cerebral, os neurônios naturais do paciente, ou do animal manipulado, se assimilaram e reprogramaram as células encefálicas artificiais de acordo com as necessidades do corpo receptor</h3>
+
+                    <div class="subTituloArtigo">
+                        <h2>Material e métodos</h2>
+                    </div>
+
+                    <h3 class="textoArtigo">Esse resumo, utilizou de análise científica, descritiva, comparativa. Empregando como critério de inclusão: estudos, artigos, livros, testes randômicos, em relação a engenharia de tecidos, inteligência computacional, nanotecnologia e bioimpressão de órgãos, na fabricação de neurônios artificiais desenvolvidos em laboratório. A partir, de artigos publicados em Google Acadêmico, bases de dados oferecidos pela PUBMED, dados de artigos acadêmicos oferecidos pela SciELO, artigos acadêmicos e científicos oferecidos pelas universidades públicas, e por fim, sites de desenvolvimento nanotecnológico e da engenharia de tecidos. Por meio, da combinação de descritores e filtros em periódicos oferecidos pelo CAPES: “nanotecnologia”, “Fabricação de Órgãos Artificias”, “Doença de Degenerativas”, “Engenharia elétrica na Biomedicina”, “Nanomedicina”, “Nanomateriais”, “Células-Tronco”, “Regeneração de Tecidos”, “Componentes Eletrônicos”. Introduziu-se artigos em português e inglês, do período de 2006 - 2020. Os critérios de exclusão decididos, foram: artigos e estudos acadêmicos, com linhagem de pesquisa imprecisa, por não apresentarem conteúdo semelhante e necessário para o desenvolvimento da pesquisa. Na metodologia descritiva, a seguinte ordem foi utilizada para estruturar as pesquisas base para demonstrar a aplicabilidade das redes neurais artificiais: 1. Estudo das relações existentes entre a nanotecnologia e a engenharia de tecidos; 2. A aplicabilidade (por meio de comparação de experimentos e pesquisas) da modalidade da fabricação de órgãos artificiais, privilegiando em especial células cerebrais; 3. Estudo de caso, qual foi a qualidade e quantidade dos resultados obtidos, nos pacientes voluntários e nas cobaias, que tiveram a implantação desse conjunto de neurônios semi-orgânicos no organismo receptor; 4. Conclusão final, foi observado a comprovação da sua valência e o baixo risco a moderado nas cobaias que receberam essa rede neural.</h3>
+
+                    <div class="subTituloArtigo">
+                        <h2>Resultados</h2>
+                    </div>
+
+                    <h3 class="textoArtigo">Para produzir um neurônio semi-orgânico artificial, com qualidade e síntese correta, os componentes primordiais da placa e a sua matriz, precisam ser programáveis ao entrar em contato com as substancias biológicas e químicas do organismo. Observando essas necessidades básicas de funcionamento, os especialistas da bioeletrônica e da nanomedicina (biomédicos, biotecnológos, engenheiros biomédicos, engenheiros da biotecnologia engenheiros médicos, engenheiros elétricos, engenheiros eletrônicos, engenheiros da computação, engenheiros de software, químicos e biólogos digitais), desenvolveram nanoplacas e nanocomponentes biocompatíveis e biosemelhantes, para responderem de maneira condizente ao comando parassimpático e simpático, através de seus receptores hormonais, químicos e eletroquímicos, por meio de suas várias possíveis entradas e saídas, que simulam as possibilidades de retorno das informações neurais “reais”. Com o propósito, a compatibilização da célula fabricada com a real fosse bem sucedida, envolveram essa nanoplaca e seus microcomponentes com células troncos (CT’s) e de hormônios produzidos na resolução sináptica. Logo, permitindo que toda essa estrutura urdida laboratorialmente, transmutasse dentro do corpo do espécime, de forma similar ou idêntica, no desenvolvimento de um embrião.
+
+
+                        A placa-mãe e seus componentes, de maneira mais detalhada, são programados para assimilar todas as características de um neurônio biológico e todas as conexões que este pode realizar. Com a finalidade, de viabilizar essa ambição, transformaram toda uma matriz computadocional, eletrônica e seu software e hardware de tamanho convencional, na escala nanometrica, usando o grafeno como “carcaça” compatível da placa-mãe e de seus pequenos componentes como o Processador (conectado ao soquete), Memória RAM, Bios (memória ROM), Bateria, Chipset (norte e sul), aplicando a SMT-Surface Mounting Technology (Técnica de Montagem em superfície) e valendo-se de componentes ultra-miniaturizados para a indexação na superfície que chamada “SMD – Surface Mounting Device”. E para tornar atóxico ou com toxidade mínima essa organização elétrica, substituíram suas bases ácidas e de metais pesados, por biodegradáveis (como o sódio, lítio, celulose, ácidos menos corrosivos) envoltos de células-trónco, introduzidos por endoscopia cerebral ou por procedimentos menos invasivos, introdução por via nasal.
+                        
+                        
+                        As “CTs” utilizadas para garantir a síntese desses conjuntos neurais foram as totipotentes (experimentalmente), pluripotentes ou multipotentes (apenas como parâmetro laboratorial), oligopotentes e onipotentes (usadas de forma direcionada na pesquisa). Cada uma, tem sua especificidade e uma aplicação diferente, permitindo uma viabilização mais diversa que a outra na engenharia de tecidos e bioimpressão.A mais apliacada durante o desenvolvimento científico da rede neural, foi as unipotentes e a oligopotentes, encontradas principalmente no cordão umbilical, e modificadas, posteriormente, por procedimentos laboratoriais, com o intento de obter a mesma plasticidade das células pluripotentes. 
+                        
+                        
+                        A biocompatibilidade, dessas redes neurais, imitadoras das estruturas presentes no neurônio, axônio, bainha de mielina, formada por oligodendrócitos, no sistema nervoso central, e de células de Schwann, no sistema nervoso periférico, devesse exclusivamente a um bom “invólucro” de células “universais”, ocasionando em uma adesão eficiente na superfície do órgão ou tecido. Portanto, essa interação entre os nanomateriais e o “pudim” de CT’s, conseguem passar pela estrutura histológica cerebral (tecido nervoso) e funcional, que protege o sistema nervoso-central, por ser similar, oportunizando a transferência de informações entre rede artificial e natural. Além do mais, dentro de poucos anos, com auxílio da bioengenharia-elétrica, as bioimpressoras poderão produzir órgãos aprimorados fisiobioquimicamente, capazes de substituírem tecidos ou órgãos, em escala hospitalar. Assim, diminuindo as taxas de pacientes na espera de um transplante. A integração de terapia gênica, engenharia tecidual e biomateriais, são um enorme potencial para criar ambientes sintéticos que forneçam os sinais necessários para promover a formação de estruturas fisiológicas funcionais.</h3>
+
+                    <div class="subTituloArtigo">
+                        <h2>Conclusão</h2>
+                    </div>  
+
+                    <h3 class="textoArtigo">Em suma, esse resumo relatou aplicações revolucionárias da técnica de bioimpressão 3D, junto a engenharia elétrica-biomédica, na elaboração de tecidos cerebrais artificiais, especificamente os neurônios, na reconstrução e regeneração da massa encefálica perdida ou degrada por doenças degenerativas, acidentes e má formações congênitas. Como resultado final, obteve a aplicabilidade promissora dessa pesquisa e ousada ambição científica de aprimoramento corporal a nível celular. Além disso, o desenvolvimento de softwares, hardwares e placas-mãe em escala nanometrica envoltos de células-tronco, tem uma abrangência extensa de praticabilidades, como na restruturação de unidades de conservação (UC’s) e na medicina veterinária. Observações pertinentes,  deve ser integrado na fabricação desses componentes eletrônicos biocompatíveis, os biopolímeros e folhas de celulose, para uma adesão absoluta do conjunto semi-orgânico de neurônios. Atualmente, o financiamento a engenharia de tecidos e a engenharia biomédica, possibilita passos importantíssimos em direção à fabricação de estruturas e órgãos anatomicamente moldados e compatíveis ao paciente portador de alguma patologia ou anomalia fisiológica. Contudo, ainda é de mendicidade cientifica mais experimentações laboratoriais complexas em relação a implantação de órgãos e conjunto de células fabricadas, para uma valência mais segura e ideal da biotecnologia de modo geral. Visando, principalmente, o bem comum, a evolução humanitária e o comprometimento acadêmico na construção legítima e honesta da ciência contemporânea.</h3>
+
+                    <div class="subTituloArtigo">
+                        <h2><label for="">Palavras-chave</label></h2>
+                    </div>
+
+                    <h3 class="textoArtigo">Bioimpressão, Biomedicina, Engenharia Elétrica, Engenharia de tecidos.</h3>
+
+                    <div class="subTituloArtigo">
+                        <h2>Referências</h2>
+                    </div>
+
+                    <h3 class="textoArtigo">1. ABDULLAH, M.A. et al. Cell engineering and molecular pharming for biopharmaceuticals. Open Med. Chem. J., v.14, n.2, p.49-61, 2008. 
+
+                        2. ANSELME, K. Osteoblast adhesion on biomaterials. Biomaterials, v.21, n.7, p.667-681, 2000. 
+                        
+                        3. ATALA, A. Engineering organs. Curr. Opin. Biotechnol., v.20, n.5, p.575-592, 2009. 
+                        
+                        4. BARBANTI, S.H.; ZAVAGLIA, C.A.C.; DUEK, E.A.R. Polímeros bioreabsorvíveis na engenharia de tecidos. Polímeros: Ciência e Tecnologia, v.15, n.1, p.13-21, 2005.
+                        
+                        5. Juliana Cancino, Valéria S. Marangoni, Valtencir Zucolotto, Nanotecnologia em medicina: aspectos fundamentais e principais preocupações, SCIELO. <https://www.scielo.br/scielo.php?script=sci_arttext&pid=S0100-40422014000300022#:~:text=Atualmente%2C%20muitos%20pesquisadores%20da%20%C3%A1rea,minimizando%20os%20riscos%20para%20o>.
+                        
+                        6. Douglas Daniel Dalle Corte, Gustavo Marquezi Borges, Nanotecnologia e medicina: novas perspectivas para o futuro, EDITORA ATENA. <https://www.atenaeditora.com.br/post-artigo/14822>
+                        
+                        7. Nanomedicina na terapia do câncer: tendências e perspectivas inovadoras, Elvin Blanco, Angela Hsiao, Aman P Mann, Matthew G Landry, Funda Meric-Bernstam, Mauro Ferrari, PUBMED. <https://pubmed.ncbi.nlm.nih.gov/21447010/>
+                        
+                        8. Francisco Venicius Ferreira da Silva, Eveline Matias Bezerra Valder Nogueira Freire, Doença de alzheimer: estruturas moleculares, bioquímica quântica e nanotecnologia, Periódicos-UFC <http://www.periodicos.ufc.br/eu/article/view/17754>
+                        
+                        9. Renata Maria Vieira Nogueira, Layslla Caroline Araujo Almeida, Valeska Silva Lucena, Narlize Silva Lira Cavalcante, Nanotecnologia: uma nova possibilidade.
+                        
+                        10. Nesse trabalho, duas arquiteturas neurais importantes são abordadas: a arquitetura MLP – multi layer perceptron - e a arquitetura de Hopfield. Duas referências bastante importantes são os livros de David Rumelhart (Parallel Distributed Processing) e de Simon Haykin (Neural Networks: a Comprehensive Foundation. 
+                        
+                        11. O livro de Haykin nos seus capítulos 1 e 2 é bastante acessível na maior parte de seus conteúdos. Dois artigos introdutórios: Artificial Neural Networks: A Tutorial, de autoria de Anil K Jain e Jianchang Mao, publicado na IEEE Computer de março de 1996, pp. 31-44, identificado e recomendado pelo nosso colega o Professor Aquiles Grimoni (PEA). Artificial Neural Networks and Computational Intelligence, de autoria de Roger L. King e publicado em outubro de 1998, no IEEE Computer Applications in Power pp.15-25.
+                        
+                        12. Bioprinting for computer: and robotic-assisted medical intervention: preliminary study in mice. Biofabrication 2(1):014101. 
+                        
+                        13. Khatiwala C., Law R., Shepherd B., Dorfman S. & Csete M. 2012. 3D cell bioprinting for regenerative medicine research and therapies. Gene Ther. Regul. 7(01):1230004.
+                        
+                        14. Kurobe H., Maxfield M.W., Breuer C.K. & Shinoka T. 2012. Concise review: tissue-engineered vascular grafts for cardiac surgery: past, present, and future. Stem Cells Transl. Med. 1(7):566-571.
+                        
+                        15. Lee S.C., Wu C.T., Lee S.T. & Chen P.J. 2009. Cranioplasty using polymethyl methacrylate prostheses. J. Clin. Neurosci. 16(1):56-63. 
+                        
+                        16. Lindroos B., Suuronen R. & Miettinen S. 2011. The potential of adipose stem cells in regenerative medicine. Stem Cell Rev. Rep. 7(2):269-291. 
+                        
+                        17. Madrigal M., Rao K.S. & Riordan N.H. 2014. A review of therapeutic effects of mesenchymal stem cell secretions and induction of secretory modification by different culture methods. J. Transl. Med. 12(1):260. 
+                        
+                        18. Maher P.S., Keatch R.P., Donnelly K., Mackay R.E. & Paxton J.Z. 2009. Construction of 3D biological matrices using rapid prototyping technology. Rapid Prototyping J. 15(3):204-210. 
+                        
+                        19. Mironov V. 2003. Printing technology to produce living tissue. Expert Opin. Biol. Ther. 3(5):701-704. 
+                        
+                        20. Mironov V., Trusk T., Kasyanov V., Little S., Swaja R. & Markwald R. 2009. Biofabrication: a 21st century manufacturing paradigm. Biofabrication 1(2):022001. 
+                        
+                        21. Mironov V., Kasyanov V. & Markwald R.R. 2011. Organ printing: from bioprinter to organ biofabrication line. Curr. Opin. Biotechnol. 22(5):667-673. 
+                        
+                        22. Miura K., Okada Y., Aoi T., Okada A., Takahashi K., Okita K., Nakagawa M., Koyanagi M., Tanabe K., Ohnuki M., Ogawa D., Ikeda E., Okano H. & Yamanaka S. 2009. Variation in the safety of induced pluripotent stem cell lines. Nat. Biotechnol. 27(8):743-745. 
+                        
+                        23. Moroz A. 2009. Avaliação das novas propostas em arcabouços tridimensionais (3D) para cultura de células-tronco mesenquimais e condrogênese. Dissertação de Mestrado. Disponível em <Disponível em http:// repositorio.unesp.br/bitstream/handle/11449/90735/moroz_a_me_botfm.pdf?sequence=1 > Acesso em 23 abr. 2016. 
+                        
+                        24. Murphy S.V. & Atala A. 2014. 3D bioprinting of tissues and organs. Nat. Biotechnol. 32:773-785. 
+                        
+                        25. Mutreja I., Woodfield T.B., Sperling S., Nock V., Evans J.J. & Alkaisi M.M. 2015. Positive and negative bioimprinted polymeric substrates: new platforms for cell culture. Biofabrication 7(2):025002. </h3>
+
+                </div>
+
+
+                <br>
+                <br>
+                <br>
+
+            </main>
+        </section>
+
+        <footer>
+            <div id="#rodaPe">
+                <span class="textoRodaPe">Ciência Neurodivergente &copy;</span>
+                <br>
+                <span class="textoRodaPe" id="github" >&copy 2021 por:  <a class="corLink" href="https://github.com/Samuelvv">https://github.com/Samuelvv</a></span>
+            </div>
+        </footer>
+
+        <script>
+
+        </script>
+    </body>
+</html>

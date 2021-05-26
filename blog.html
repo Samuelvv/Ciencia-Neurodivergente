@@ -1,0 +1,295 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <style>
+                        * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                height: 100vh;
+
+
+            }
+
+            section{
+                background-color: #116dff;
+            }
+
+            header, footer{
+                height: 10vh;
+                background-color:#0a4a6e;
+                
+            }
+            footer {
+                height: 180px;
+            }
+
+            .barraMenu{
+                display: flex;
+                justify-content: center;
+                height: 100vh;
+                position: relative;
+                top: 30px;
+                font-family: 'Farro', sans-serif;
+                color: #eff1f2;
+                
+            }
+
+            .menuUl {
+                
+            }
+
+            .linkMenu{
+                display: inline;
+                font-size: 24px;
+                text-decoration: none;
+                padding: 20px;
+                
+            } 
+
+            .linkMenu:hover {
+                
+            }
+
+            .linkA {
+                color: #eff1f2;
+                text-decoration: none;
+            }
+
+            .linkA:hover {
+                color: rgb(255, 82, 146);
+                background-color: rgb(32, 52, 139);
+                border-radius: 10px;
+            }
+
+            .linhaHorizontal {
+                width: 40%;
+                
+                position: absolute;
+                left: 400px;
+                color: rgb(255, 82, 146);
+                background-color: rgb(255, 82, 146);
+                border-radius: 20%;
+                border-color: rgb(255, 82, 146);
+            }
+
+            .imagemPrincipal {
+                width: 400px;
+                height: 500px;
+                position: relative;
+                left: 480px;
+                border-radius: 20px;
+                border-style: hidden;
+                box-shadow: 10px 10px 10px rgb(97, 14, 57);
+            }
+
+            .todosOsPosts {
+                color: #eff1f2;
+                font-size: 15px;
+                text-align: center;
+                line-height: 28.125px;
+                font-family: 'Quicksand', sans-serif; 
+                padding: 6px;
+                position: relative;
+                left: 155px;
+            }
+
+            .todosOsPosts:hover {
+                color: rgb(255, 82, 146);
+            }
+
+            .textos {
+                padding: 20px;
+            }
+
+
+
+            .textoRodaPe {
+                font-family: 'Quicksand', sans-serif;
+                color: #eff1f2;;
+                position: relative;
+                left: 540px;
+                top: 25px;
+                  
+            }
+
+            #github {
+                position: relative;
+                top: 50px;
+            }
+
+            .corLink {
+                color: rgb(255, 82, 146);
+            }
+
+
+
+            .todosArtigos {
+                background-color:rgb(255, 82, 146);
+                padding-top: 30px;
+            }
+
+            .imagemArtigos {
+                width: 400px;
+                height: 200px;
+                position: relative;
+                left: 155px;
+                border-radius: 20px;
+                border-style: hidden;
+                box-shadow: 10px 10px 10px  rgb(97, 14, 57);
+            }
+
+            .textoLogoArtigo {
+                font-family: 'Quicksand', sans-serif;
+                font-size: 12px;
+                color: #eff1f2;
+                position: relative;
+                left: 180;
+                bottom: 160px;
+                
+            }
+
+            .textoLogoArtigo a {
+                color: #eff1f2;
+                text-decoration: none;
+                
+            }
+
+            .textoLogoArtigo a:hover {
+                color: rgb(255, 82, 146);
+            }
+
+            .textoLogoArtigo2 {
+                font-family: 'Quicksand', sans-serif;
+                font-size: 12px;
+                color: #eff1f2;
+                position: absolute;
+                left: 580;
+                top: 1050px;
+            }
+
+            .textoLogoArtigo2 a {
+                color: #eff1f2;
+                text-decoration: none;
+            }
+
+            .textoLogoArtigo2 a:hover {
+                color: rgb(255, 82, 146);
+            }
+
+            .spanMsg {
+                font-size: 22px;
+                position: relative;
+                left: 185px;
+                bottom: 150px;
+                color: #eff1f2;
+            }
+
+            .spanMsg a {
+                color: #eff1f2;
+                text-decoration: none;
+            }
+            
+            .spanMsg a:hover {
+                color: rgb(116, 67, 224);  
+            }
+
+        </style>
+
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Farro:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Monda:wght@400;700&family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&family=Quicksand:wght@300;400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+        <title>CIÊNCIA NEURODIVERGENTE</title>
+    </head>
+    <body>
+        <header>
+            <div class="barraMenu">
+                <nav>
+                    <ul class="menuUl">
+                        <li id="" class="linkMenu"><a href="index.html" class="linkA">Início</a></li>
+                        <li id="" class="linkMenu"><a href="blog.html" class="linkA">Blog</a></li>
+                        <li id="" class="linkMenu"><a href="sobre.html" class="linkA">Sobre</a></li>
+                        <li id="" class="linkMenu"><a href="contato.html" class="linkA">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <section>
+            <main>
+                <div id="#textoPrincipal" style="color: eff1f2; font-size: 55px; text-align: center; font-family: 'Monda', sans-serif;
+                font-family: 'Poppins', sans-serif;">
+                    <h1>BLOG</h1>
+                </div>
+
+                <hr class="linhaHorizontal">
+
+                <div id="#textoPrincipal" style="color: eff1f2; font-size: 40px; text-align: center; font-family: 'Monda', sans-serif;
+                font-family: 'Poppins', sans-serif;">
+                    <h1>BEM-VINDO ÀS PUBLICAÇÕES DE CIÊNCIA NEURODIVERGENTE</h1>
+                </div>
+
+                <div class="imagem1">
+                    <img src="imagemOO.png" alt="CIÊNCIA NEURODIVERGENTE" class="imagemPrincipal">
+                </div>
+
+                <div class="textos">
+                    <span class="todosOsPosts">TODOS OS POSTS</span>
+                </div>
+
+                <div class="todosArtigos">
+
+                    <div class="linkArtigos">
+                        <label for="" > <a href="#"><img src="imagemLL.png" alt="CIÊNCIA NEURODIVERGENTE" class="imagemArtigos"></a></label> 
+                        <span class="spanMsg"> <a href="contribuicao.html">  Contribuições da engenharia elétrica... </a> </span>
+                    </div>
+
+                    <br>
+                    <br>
+                    <br>
+
+                    <div>
+                        <label for=""> <a href="#"> <img src="imagemVV.png" alt="CIÊNCIA NEURODIVERGENTE" class="imagemArtigos"></a></label>
+                        <span class="spanMsg"> <a href="assistencia.html"> Assistência da nanotecnologia e da microeletrônica... </a> </span>
+                    </div>
+
+                    <br>
+                    <br>
+                    <br>
+
+                    <div>
+                        <label for=""> <a href="#"> <img src="juk.png" alt="CIÊNCIA NEURODIVERGENTE" class="imagemArtigos"></a></label>
+                        <span class="spanMsg"> <a href="eletrica.html"> Assistência da nanotecnologia e engenharia elétrica-biomédica... </a> </span>
+                    </div>
+
+                    <br>
+                    <br>
+                    <br>
+
+                </div>
+
+                <br>
+
+            </main>
+        </section>
+
+        <footer>
+            <div id="#rodaPe">
+                <span class="textoRodaPe">Ciência Neurodivergente &copy;</span>
+                <br>
+                <span class="textoRodaPe" id="github" >&copy 2021 por:  <a class="corLink" href="https://github.com/Samuelvv">https://github.com/Samuelvv</a></span>
+            </div>
+        </footer>
+
+        <script>
+
+        </script>
+    </body>
+</html>
